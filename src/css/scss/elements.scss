@@ -1,0 +1,60 @@
+html{
+	color: $color_main;
+}
+
+body{
+	width: 100%;
+}
+
+h1, h2{
+	color: $color_h1
+}
+
+h1{
+	font-size: $h1_font-size;
+	padding: 1em;
+}
+
+h2{
+	font-size: $h2_font-size;
+	padding: .7em;
+}
+
+input{
+	outline-style: none;
+	margin: 0 auto;
+	margin-left: 2em;
+	display: block;
+	width: 85%;
+	height: 35px;
+	font-size: 1em;
+	line-height: 1.42857143;
+	color: #757575;
+	background-color: $bg;
+	background-image: none;
+	border: 0;
+}
+
+.btn {
+	color: #757575;            
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	padding: 0.4em;
+	outline-style: none;
+	font-size: 1em;
+}
+
+button,
+html input[type="button"],
+input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+@media (min-width: 792px){
+	body{
+		max-width: 1624px;
+		margin: 0 auto;
+	}
+}

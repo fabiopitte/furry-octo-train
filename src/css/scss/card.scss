@@ -1,0 +1,72 @@
+.card {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    &>&__title {
+        color: $color_menu_text;
+    }
+    &>&__1,
+    &>&__2,
+    &>&__3,
+    &>&__4,
+    &>&__5,
+    &>&__6,
+    &>&__7,
+    &>&__8,
+    &>&__9,
+    &>&__10{
+        background-color: $bg_card;
+        border-radius: .8em;    
+        box-shadow: 0 0px 9px 0 silver;
+        width: 90%;  
+        margin: 1em;
+        padding: 2em;    
+        position: relative;
+    }
+}
+
+@media(min-width: 792px){
+    .card {
+        left: 14.5em;
+        right: 2em;
+        width: auto;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        &>&__1{
+            width: 10%;
+        }
+        &>&__2{
+            width: 20%;
+        }
+        &>&__3{
+            width: 30%;
+        }
+        &>&__4{
+            width: 40%;
+        }
+        &>&__5{
+            width: 50%;
+        }
+        &>&__6{
+            width: 60%;
+        }
+        &>&__7{
+            width: 70%;
+        }
+        &>&__8{
+            width: 80%;
+        }
+        &>&__9{
+            width: 90%;
+        }
+        &>&__10{
+            width: 100%;
+        } 
+    }
+}

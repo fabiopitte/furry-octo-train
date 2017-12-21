@@ -1,0 +1,17 @@
+$bg: #ffffff;
+$bg_card: #FAFBF6;
+
+$color_main: #FE5670;
+$color_h1: #2B947D;
+
+$color_menu_text: #F8715F;
+$color_nav_text: #ffffff;
+$color_border_header: #ececec;
+
+$h1_font-size: 1.8em;
+$h2_font-size: 1.5em;
+$header_font-size: 1em;
+
+@mixin bg_side_menu(){
+	background: linear-gradient(to bottom, #F8715F,#FE5670);
+}

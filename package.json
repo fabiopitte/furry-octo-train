@@ -1,0 +1,30 @@
+{
+  "name": "furry-octo-train",
+  "version": "1.0.0",
+  "description": "layout designed only for example",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/css/scss/style.scss src/css/style.css",
+    "watch-css": "nodemon -e scss -x npm run build-css"
+  },
+  "author": "Fabio Pitte",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.0.0-beta.4",
+    "node-sass": "^4.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiopitte/furry-octo-train.git"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "RWD"
+  ],
+  "bugs": {
+    "url": "https://github.com/fabiopitte/furry-octo-train/issues"
+  },
+  "homepage": "https://github.com/fabiopitte/furry-octo-train#readme"
+}
