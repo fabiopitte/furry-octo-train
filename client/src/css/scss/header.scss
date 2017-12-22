@@ -13,7 +13,12 @@
 			width: 100%;
 			.btn--search {
 					position: absolute;
+					right: .5em;
 			}
+	}
+	&__input{
+		margin-left: 3em;
+		width: 75%;
 	}
 	section{
 			padding: .6em;
@@ -43,6 +48,16 @@
 		&__search{
 				color: darken($color_border_header, 30%);
 				flex: 1;
+				.btn--search {
+					right: .5em;
+					left: 13em;
+					width: 41px;
+					display: inline-block;
+			}
+		}
+		&:active{
+			box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.075);
+			z-index: 1;
 		}
 	}
 }

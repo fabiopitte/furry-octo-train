@@ -7,8 +7,11 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    &>&__title {
+    color:$color_text;
+    line-height: 1.5em;    
+    &__title {
         color: $color_menu_text;
+        padding: 0 0 1em 0;
     }
     &>&__1,
     &>&__2,
@@ -20,12 +23,12 @@
     &>&__8,
     &>&__9,
     &>&__10{
-        background-color: $bg_card;
+        background-color: $bg;
         border-radius: .8em;    
-        box-shadow: 0 0px 9px 0 silver;
-        width: 90%;  
-        margin: 1em;
-        padding: 2em;    
+        box-shadow: 0 0px 9px 0 #d4d4d4;
+        width: 90%;
+        margin: .5em 0;
+        padding: .5em;
         position: relative;
     }
 }
@@ -36,8 +39,21 @@
         right: 2em;
         width: auto;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: flex-start;
+        &>&__1,
+        &>&__2,
+        &>&__3,
+        &>&__4,
+        &>&__5,
+        &>&__6,
+        &>&__7,
+        &>&__8,
+        &>&__9,
+        &>&__10{
+            margin: 1em;
+            padding: 2em;   
+        }
         &>&__1{
             width: 10%;
         }

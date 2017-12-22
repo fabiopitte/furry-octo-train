@@ -36,7 +36,7 @@ nav.navbar{
 	margin: 0 auto;
 	border-radius: 50%;
 	position: relative;
-	box-shadow: 0 1px 7px -2px black;
+	box-shadow: 0 1px 4px -2px black;
 	span{
 		margin: 0 auto;
 		font-size: 3.4em;
@@ -72,13 +72,12 @@ nav.navbar{
 	}
 	.arrow::before{
 		position: absolute;
-		top: 0;
-		left: 5.3em;
-		content: '';
-		border-top: .5em solid #fff;
-		border-right: .5em solid #fff;
-		border-left: .5em solid transparent;
-		border-bottom: .5em solid transparent;
-		transform: rotate(225deg);
+    top: 0.5em;
+    left: 5.27em;
+    content: '';
+    border-right: 0.6em solid #fff;
+    border-left: 0.6em solid transparent;
+    border-bottom: 0.6em solid transparent;
+    transform: rotate(225deg);
 	}
 }

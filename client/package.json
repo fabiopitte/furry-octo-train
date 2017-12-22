@@ -21,7 +21,8 @@
     "HTML5",
     "CSS3",
     "SASS",
-    "RWD"
+    "RWD",
+    "BEM"
   ],
   "bugs": {
     "url": "https://github.com/fabiopitte/furry-octo-train/issues"

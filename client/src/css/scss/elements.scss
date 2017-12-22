@@ -29,14 +29,14 @@ input{
 	height: 35px;
 	font-size: 1em;
 	line-height: 1.42857143;
-	color: #757575;
+	color: $color_text;
 	background-color: $bg;
 	background-image: none;
 	border: 0;
 }
 
 .btn {
-	color: #757575;            
+	color: $color_text;
 	background-color: transparent;
 	border: 0;
 	cursor: pointer;
