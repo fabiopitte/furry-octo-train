@@ -1,4 +1,4 @@
-nav.navbar{
+.sidebar{
 	z-index: 1;
 	color: $color_nav_text;
 	top: 0;
@@ -58,7 +58,7 @@ nav.navbar{
 }
 
 @media (min-width: 792px){
-	nav.navbar{
+	.sidebar{
 		max-width: 203px;
 		left: 0;
 		width: 100%;
